@@ -25,6 +25,11 @@ pipelines:
             - ./bundle.js
       - step:
           name: Publish on npm
+          image: node:11
+          caches:
+            - node
           script:
             - yarn 
-            - npm 
+            - pipe: atlassian/npm-publish:0.2.0
+              variables:
+                NPM_TOKEN: $NPM_TOKEN
