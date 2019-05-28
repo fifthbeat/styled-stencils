@@ -1,0 +1,40 @@
+{
+  "name": "styled-stencil",
+  "version": "0.1.0",
+  "description": "A styled-component like library for StencilJS",
+  "main": "bundle.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fifthbeat/styled-stenciljs"
+  },
+  "author": {
+    "name": "Nicola Bertelloni",
+    "email": "nicola.bertelloni@gmail.com",
+    "url": "https://github.com/wanbinkimoon"
+  },
+  "keywords": [
+    "stencil",
+    "stenciljs",
+    "styled",
+    "styled-components",
+    "design system",
+    "web components"
+  ],
+  "bugs": {
+    "url": "https://github.com/fifthbeat/styled-stenciljs/issues"
+  },
+  "homepage": "https://github.com/fifthbeat/styled-stenciljs#readme",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^1.12.4",
+    "rollup-plugin-babel-minify": "^8.0.0",
+    "rollup-plugin-cleanup": "^3.1.1",
+    "rollup-plugin-node-resolve": "^5.0.0"
+  },
+  "dependencies": {
+    "hyperscript": "^2.0.2"
+  },
+  "peerDependencies": {}
+}

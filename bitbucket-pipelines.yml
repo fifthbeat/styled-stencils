@@ -1,0 +1,30 @@
+pipelines:
+  default:
+    - step:
+        name: Build artifact
+        image: node:11
+        caches:
+          - node
+        script:
+          - yarn
+          - yarn build
+        artifacts:
+          - ./bundle.js
+
+  branches:
+    master:
+      - step:
+          name: Build Application
+          image: node:11
+          caches:
+            - node
+          script:
+            - yarn
+            - yarn build
+          artifacts:
+            - ./bundle.js
+      - step:
+          name: Publish on npm
+          script:
+            - yarn 
+            - npm 
