@@ -33,3 +33,7 @@ pipelines:
             - pipe: atlassian/npm-publish:0.2.0
               variables:
                 NPM_TOKEN: $NPM_TOKEN
+      - step:
+          name: Publish on github
+          script:
+            - git push public
