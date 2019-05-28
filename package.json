@@ -1,6 +1,6 @@
 {
   "name": "styled-stencil",
-  "version": "0.1.9",
+  "version": "0.1.11",
   "description": "A styled-component like library for StencilJS",
   "main": "bundle.js",
   "repository": {
@@ -26,7 +26,7 @@
   "homepage": "https://github.com/fifthbeat/styled-stenciljs#readme",
   "scripts": {
     "build": "rollup -c",
-    "update:npm": "node ./utils/versionUpdate.js"
+    "update:npm": "node ./utils/versionUpdate.js  && git add ."
   },
   "pre-commit": {
     "colors": true,
