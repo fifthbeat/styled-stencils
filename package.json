@@ -1,6 +1,6 @@
 {
   "name": "styled-stencil",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A styled-component like library for StencilJS",
   "main": "bundle.js",
   "repository": {
@@ -28,9 +28,17 @@
     "build": "rollup -c",
     "update:npm": "node ./utils/versionUpdate.js"
   },
+  "pre-commit": {
+    "colors": true,
+    "silent": false,
+    "run": [
+      "update:npm"
+    ]
+  },
   "devDependencies": {
     "fs": "^0.0.1-security",
     "rollup": "^1.12.4",
+    "pre-commit": "^1.2.2",
     "rollup-plugin-babel-minify": "^8.0.0",
     "rollup-plugin-cleanup": "^3.1.1",
     "rollup-plugin-node-resolve": "^5.0.0"
