@@ -39,6 +39,6 @@ pipelines:
           script:
             - git config --global url."https://$GITHUB_TOKEN:@github.com/".insteadOf "https://github.com/"
             - git add . 
-            - git commit "update"
+            - git commit -m "update"
             - git add remote public https://github.com/fifthbeat/styled-stenciljs
             - git push public
