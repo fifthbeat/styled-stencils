@@ -1,6 +1,6 @@
 {
   "name": "styled-stencil",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "description": "A styled-component like library for StencilJS",
   "main": "index.js",
   "repository": {
@@ -46,5 +46,7 @@
   "dependencies": {
     "hyperscript": "^2.0.2"
   },
-  "peerDependencies": {}
+  "peerDependencies": {
+    "hyperscript": "^2.0.2"
+  }
 }
