@@ -30,7 +30,6 @@ pipelines:
             - node
           script:
             - yarn 
-            - yarn update:npm
             - pipe: atlassian/npm-publish:0.2.0
               variables:
                 NPM_TOKEN: $NPM_TOKEN
@@ -39,6 +38,4 @@ pipelines:
           script:
             - git config --global url."https://$GITHUB_TOKEN:@github.com/".insteadOf "https://github.com/"
             - git remote add public https://github.com/fifthbeat/styled-stenciljs
-            - git add . 
-            - git commit -m "update"
             - git push public
