@@ -1,6 +1,6 @@
 {
   "name": "styled-stencil",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A styled-component like library for StencilJS",
   "main": "bundle.js",
   "repository": {
@@ -25,9 +25,11 @@
   },
   "homepage": "https://github.com/fifthbeat/styled-stenciljs#readme",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "update:npm": "node ./utils/versionUpdate.js"
   },
   "devDependencies": {
+    "fs": "^0.0.1-security",
     "rollup": "^1.12.4",
     "rollup-plugin-babel-minify": "^8.0.0",
     "rollup-plugin-cleanup": "^3.1.1",
