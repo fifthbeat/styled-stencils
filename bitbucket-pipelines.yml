@@ -35,6 +35,7 @@ pipelines:
                 NPM_TOKEN: ${NPM_TOKEN}
       - step:
           name: Publish on github
+          trigger: manual
           script:
             - git config --global url."https://${GITHUB_APPLICATION}:${GITHUB_TOKEN}@github.com/".insteadOf "https://github.com/"
             - git remote add public https://github.com/fifthbeat/styled-stenciljs

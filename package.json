@@ -1,6 +1,6 @@
 {
   "name": "styled-stencil",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "A styled-component like library for StencilJS",
   "main": "bundle.js",
   "repository": {
