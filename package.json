@@ -1,6 +1,6 @@
 {
   "name": "styled-stencil",
-  "version": "0.1.23",
+  "version": "0.1.24",
   "description": "A styled-component like library for StencilJS",
   "main": "index.js",
   "repository": {
@@ -44,9 +44,9 @@
     "rollup-plugin-node-resolve": "^5.0.0"
   },
   "dependencies": {
-    "hyperscript": "^2.0.2",
+    "hyperscript": "^2.0.2"
   },
   "peerDependencies": {
-    "hyperscript": "^2.0.2",
+    "hyperscript": "^2.0.2"
   }
 }
