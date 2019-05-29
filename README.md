@@ -22,7 +22,7 @@ Basically it gives you the flexibility of **CSS** in the power engine of **JS**.
 ## Install
 
 ```bash
-yarn add styled-stencil
+yarn add styled-stencils
 ```
 
 or if you have time to spare
