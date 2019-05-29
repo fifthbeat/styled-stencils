@@ -7,7 +7,7 @@ A [Styled Components](https://github.com/styled-components/styled-components) li
 [![Build Status](https://travis-ci.org/fifthbeat/styled-stenciljs.svg?branch=master)](https://travis-ci.org/fifthbeat/styled-stenciljs)
 [![Maintainability](https://api.codeclimate.com/v1/badges/145feaf159197ca30563/maintainability)](https://codeclimate.com/github/fifthbeat/styled-stenciljs/maintainability)
 [![dependencies Status](https://david-dm.org/fifthbeat/styled-stenciljs/status.svg)](https://david-dm.org/fifthbeat/styled-stenciljs)
-[![npm version](https://badge.fury.io/js/styled-stencil.svg)](https://badge.fury.io/js/styled-stencil)
+[![npm version](https://badge.fury.io/js/styled-stencils.svg)](https://badge.fury.io/js/styled-stencils)
 
 ## Intro
 
