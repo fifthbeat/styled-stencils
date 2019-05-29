@@ -6,12 +6,16 @@ export default {
   input: 'index.js',
   output: {
     file: 'bundle.js',
-    format: 'cjs',
+    format: 'iife',
+    name: 'styled',
   },
   plugins: [
     minify(),
     resolve({
       browser: true,
+      customResolveOptions: {
+        moduleDirectory: 'node_modules',
+      },
     }),
     cleanup(),
   ],
