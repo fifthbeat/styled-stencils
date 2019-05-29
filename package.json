@@ -1,6 +1,6 @@
 {
   "name": "styled-stencils",
-  "version": "0.1.29",
+  "version": "0.1.30",
   "description": "A styled-component like library for StencilJS",
   "main": "index.js",
   "repository": {
@@ -36,7 +36,7 @@
     ]
   },
   "devDependencies": {
-    "fs": "^0.0.1-security",
+    "fs": "^0.0.2",
     "pre-commit": "^1.2.2",
     "rollup": "^1.12.4",
     "rollup-plugin-babel-minify": "^8.0.0",
